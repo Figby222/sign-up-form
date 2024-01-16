@@ -1,0 +1,1 @@
+A generic template form intended to prompt users to sign up for some service
