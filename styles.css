@@ -110,7 +110,7 @@ input:focus {
 input:hover {
     border: 1px solid blue;
 }
-.error-message {
+.password-error {
     position: absolute;
     color: red;
     font-size: 0.5rem;

@@ -50,14 +50,14 @@
                 </div>
                 <div>
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone-number" placeholder="(xxx) xxx-xxxx">
+                    <input type="text" id="phone" name="phone-number" pattern="\(\d{3}\) \d{3}[\-]\d{4}" placeholder="(xxx) xxx-xxxx">
                 </div>
             </div>
             <div>
                 <div>
                     <label for="password">PASSWORD</label>
                     <input type="password" id="password" name="password" class="error" required>
-                    <span class="error-message">* Passwords do not match</span>
+                    <span class="password-error">* Passwords do not match</span>
                 </div>
                 <div>
                     <label for="confirm-password">CONFIRM PASSWORD</label>
