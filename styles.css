@@ -103,6 +103,19 @@ input[type="password"] {
     border-radius: 4px;
     background-color: #00000011;
 }
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+input:hover {
+    border: 1px solid blue;
+}
+.error-message {
+    position: absolute;
+    color: red;
+    font-size: 0.5rem;
+}
+
 h1 {
     margin-top: 0px;
     font-size: 1rem;
@@ -121,6 +134,7 @@ fieldset > div {
 }
 fieldset > div > div {
     float: left;
+    position: relative;
 }
 fieldset > div > div:first-child {
     margin-right: 50px;
@@ -147,3 +161,4 @@ button + p {
         text-decoration: none;
     }
 }
+
