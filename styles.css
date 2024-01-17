@@ -16,9 +16,13 @@ body {
 }
 
 .sidebar {
-    flex: 1;
+    /* flex: 1; */
+    /* width: 445.484px;
+    height: 668px; */
     flex-basis: 50%;
     background-image: url(./images/sidebar-image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {
